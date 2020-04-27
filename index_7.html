@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       var teste = 42; 
+       function somar(num1,num2){
+           var valor = 5; //variavel local
+           return valor + num1 + num2;
+       }
+       for(var i = 0; i < 5;i++){
+           var outra = 5;//variavel global
+           console.log(i * outra);
+       }
+       console.log(somar(4, 6));
+       console.log(outra);
+       console.log(i);
+       
+       for(var j = 0; j < 5;j++){
+           let uma = 12;
+           console.log(j * uma);
+       }
+      // console.log(uma);
+       console.log(j);
+
+      // console.log(valor);
+   </script> 
+</body>
+</html>

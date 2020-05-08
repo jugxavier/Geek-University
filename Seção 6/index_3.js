@@ -43,9 +43,6 @@ function somar3(num1,num2,num3){
     num1 = isNaN(num1)? 1 : num1;
     num2 = isNaN(num2)? 2 : num2;
     num3 = isNaN(num3)? 3 : num3;
-    var teste = 1
-
-    
     // return num1 + num2 + num3;
 }
 console.log(teste)

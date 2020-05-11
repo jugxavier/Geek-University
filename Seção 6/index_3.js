@@ -13,9 +13,9 @@ function somar(){
 
 
  function imprime_valores(num1,num2){
-     for(let i in arguments){
-         console.log(arguments[i]);
-     }
+    for(let i in arguments){
+        console.log(arguments[i]);
+    }
  }
 //  imprime_valores();
 //  imprime_valores(4,6);
@@ -45,7 +45,6 @@ function somar3(num1,num2,num3){
     num3 = isNaN(num3)? 3 : num3;
     // return num1 + num2 + num3;
 }
-console.log(teste)
 // console.log(somar3())
 // console.log(somar3(4,5,6));
 // console.log(somar3());
@@ -68,5 +67,26 @@ function somar4(num1=1, num2=2, num3=3){
 // console.log(somar4(2,2,2,2));
 // console.log(somar4(0,0,0));
 
-// console.log(somar4("b"));
+console.log(somar4("b","c"));
+console.log(somar4(true, false,"c"));
+console.log(somar4(2,true,false));
 
+function somar5(num1=1, num2=2, num3=3){
+    if(Number.isSafeInteger(num1)&& Number.isSafeInteger(num2) && Number.isSafeInteger(num3)){
+        return num1+num2+num3;
+    } 
+    else{
+        return "Não foi possivel efetuar a soma"
+    }
+}
+console.log(somar5(4,5,6));
+console.log(somar5());
+console.log(somar5(2));
+console.log(somar5(2,2));
+console.log(somar5(2,2,2));
+console.log(somar5(2,2,2,2));
+console.log(somar5(0,0,0));
+
+console.log(somar5("b","c"));
+console.log(somar5(true, false,"c"));
+console.log(somar5(2,true,false));

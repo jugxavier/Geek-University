@@ -29,5 +29,5 @@ juliana.fazer_aniversario();
 // const felicity = new pessoa("felicity","feminino");
 // felicity.fazer_aniversario();
 // console.log(felicity.getIdade());
-console.log(typeof(pessoa));
-console.log(typeof(felicity));
+// console.log(typeof(pessoa));
+// console.log(typeof(felicity));

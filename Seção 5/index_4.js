@@ -5,10 +5,10 @@ for(var i = 0; i < precos.length; i++){
     soma = soma + precos[i];
 }
 // //console.log(soma);
-soma = 0;
- soma.forEach(function(valor){
-    soma += valor;  // soma = soma + valor
-});
+// soma = 0;
+//  somar.forEach(function(valor){
+//     soma += valor;  // soma = soma + valor
+// });
 // // console.log(soma);
 
 function somar(anterior, atual){
@@ -22,9 +22,9 @@ function adicionar_taxa(valor){
 }
 var ret = precos.map(adicionar_taxa).reduce(somar);
 // console.log(ret);
-function precp_maior_que_4(valor){
+function preco_maior_que_4(valor){
     return valor > 4;
 }
 
-ret = precos.filter(precp_maior_que_4).map(adicionar_taxa).reduce(somar);
+ret = precos.filter(preco_maior_que_4).map(adicionar_taxa).reduce(somar);
 console.log(ret);

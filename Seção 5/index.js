@@ -20,7 +20,7 @@ cursos.forEach(function(curso, indice){
 //         console.log(i + " - " +  cursos[i]);
 // }
 
-// fist test
+// first test
 let names = [
   "juliana",
   "joao",
@@ -32,7 +32,7 @@ function print_out(name,index){
   console.log(index +" - "+ name)
 }
 // callback/lambdas
-names.forEach(function(name,index,array){
+names.forEach(function(name,index,){
 //   console.log(`${index} - ${name}`)
 });
 for(var i = 0; i < names.length;i++){

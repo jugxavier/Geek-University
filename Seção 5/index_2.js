@@ -21,3 +21,15 @@ function dividir_por_5(valor){
 }
 var resultado = valores.map(dobrar).map(somar_4).map(dividir_por_5);
 console.log(resultado);
+
+// 1º test
+
+let values = [34, 44, 17, 88, 210];
+let test = values.map(function(value){
+    return value * 2;
+});
+function multiply(value){
+    return value * 9;
+}
+let result = values.map(multiply);
+console.log(result);

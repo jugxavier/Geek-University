@@ -29,4 +29,13 @@ function multiply(value){
     return value * 9;
 }
 let result = values.map(multiply);
-console.log(result);
+// console.log(result);
+
+//  2º test
+let values = [88,57,32,11,98];
+function share(value){
+  return value /6;
+}
+let result = values.map(share);
+console.log(result)
+

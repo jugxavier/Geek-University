@@ -37,5 +37,12 @@ function share(value){
   return value /6;
 }
 let result = values.map(share);
-console.log(result)
+// console.log(result)
 
+// 3º test 
+let values = [154, 484, 87, 23, 5000];
+function add(value){
+    return value + 9;
+}
+let result = values.map(add);
+console.log(result);

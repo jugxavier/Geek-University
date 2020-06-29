@@ -45,4 +45,21 @@ function add(value){
     return value + 9;
 }
 let result = values.map(add);
-console.log(result);
+// console.log(result);
+
+// 4º test 
+let values = [34, 44, 17, 88, 210];
+function multiply(value){
+    return value * 9;
+}
+function add(value){
+    return value + 9;
+}                 
+function share(value){
+  return value /6;
+}
+let result = values.map(share).map(add).map(multiply);
+console.log(result)
+
+// when we have an array with certain values ​​we use map to map it, apply transformations and generate a new array already transformed.
+

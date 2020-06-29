@@ -30,4 +30,3 @@ function multiply(value){
 }
 let result = values.map(multiply);
 console.log(result);
-
